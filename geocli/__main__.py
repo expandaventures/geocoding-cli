@@ -1,6 +1,6 @@
 import sys
 import click
-from geocli_driver import process_file, get_location_by_address
+from geocli.geocli_driver import process_file, get_location_by_address
 
 
 @click.group()
